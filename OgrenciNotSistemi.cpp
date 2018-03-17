@@ -1,5 +1,6 @@
 #include <stdio.h> 
 #include<math.h>
+#include<conio.h>
 void giris(int no[],int Not[],int N)
 {
 	int i;
@@ -316,6 +317,7 @@ main()
 	yatayhistogram(bnotu,N); 
 	printf("\n\n----Basari Notlarinin Dikey Histogram Halinde Dagilim Araliklari---- \n\n");
 	dikeyhistogram(bnotu,N);
+	_getch();
 }
 
  
